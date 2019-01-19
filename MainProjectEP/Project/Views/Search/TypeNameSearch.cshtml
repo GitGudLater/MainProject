@@ -1,0 +1,77 @@
+﻿@model IEnumerable<DishClassLibrary.temp.test.DishWithTypes>
+
+@{
+    ViewBag.Title = "TypeNameSearch";
+}
+
+<h2>TypeNameSearch</h2>
+
+<p>
+    @Html.ActionLink("Create New", "SetDish", "Home")
+</p>
+<p>
+    @Html.ActionLink("Create Book", "SetBook", "Home")
+</p>
+<p>
+    @Html.ActionLink("Get Types", "GetTypes", "Home")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Dish)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Time)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Temperature)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.About)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HowToCraft)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dish)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Time)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Temperature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.About)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HowToCraft)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditDIsh", "Home", new { id = item.Id }) |
+                @Html.ActionLink("Ingredients", "GetIngrWithDishes", "Home", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "DeleteDish", "Home", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Search pool", "Index", "Search", new { @class = "btn btn-default" })

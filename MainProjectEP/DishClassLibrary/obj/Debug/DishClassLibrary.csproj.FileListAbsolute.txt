@@ -1,0 +1,6 @@
+F:\EPAM\MainProject\DishClassLibrary\obj\Debug\DishClassLibrary.csprojAssemblyReference.cache
+F:\EPAM\MainProject\DishClassLibrary\obj\Debug\DishClassLibrary.csproj.CoreCompileInputs.cache
+F:\EPAM\MainProject\DishClassLibrary\bin\Debug\DishClassLibrary.dll
+F:\EPAM\MainProject\DishClassLibrary\bin\Debug\DishClassLibrary.pdb
+F:\EPAM\MainProject\DishClassLibrary\obj\Debug\DishClassLibrary.dll
+F:\EPAM\MainProject\DishClassLibrary\obj\Debug\DishClassLibrary.pdb

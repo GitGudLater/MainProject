@@ -1,0 +1,37 @@
+﻿@model IEnumerable<DishClassLibrary.temp.test.Get_or_Set_types>
+
+@{
+    ViewBag.Title = "GetTypes";
+}
+
+<h2>GetTypes</h2>
+
+<p>
+    @Html.ActionLink("Create New", "SetType")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Info)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Info)
+            </td>
+
+        </tr>
+    }
+
+</table>
+@Html.ActionLink("Back", "Mainpage")

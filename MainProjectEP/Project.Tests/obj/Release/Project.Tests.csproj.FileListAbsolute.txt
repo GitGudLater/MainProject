@@ -1,0 +1,2 @@
+F:\EPAM\MainProject\Project.Tests\obj\Release\Project.Tests.csprojAssemblyReference.cache
+F:\EPAM\MainProject\Project.Tests\obj\Release\Project.Tests.csproj.CoreCompileInputs.cache

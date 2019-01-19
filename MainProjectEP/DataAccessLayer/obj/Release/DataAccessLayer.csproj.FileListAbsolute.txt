@@ -1,0 +1,9 @@
+F:\EPAM\MainProject\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CoreCompileInputs.cache
+F:\EPAM\MainProject\DataAccessLayer\bin\Release\DataAccessLayer.dll
+F:\EPAM\MainProject\DataAccessLayer\bin\Release\DataAccessLayer.pdb
+F:\EPAM\MainProject\DataAccessLayer\bin\Release\DishClassLibrary.dll
+F:\EPAM\MainProject\DataAccessLayer\bin\Release\DishClassLibrary.pdb
+F:\EPAM\MainProject\DataAccessLayer\obj\Release\DataAccessLayer.csproj.CopyComplete
+F:\EPAM\MainProject\DataAccessLayer\obj\Release\DataAccessLayer.dll
+F:\EPAM\MainProject\DataAccessLayer\obj\Release\DataAccessLayer.pdb
+F:\EPAM\MainProject\DataAccessLayer\obj\Release\DataAccessLayer.csprojAssemblyReference.cache

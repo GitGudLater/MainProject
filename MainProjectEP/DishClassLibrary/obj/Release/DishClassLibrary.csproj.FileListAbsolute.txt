@@ -1,0 +1,5 @@
+F:\EPAM\MainProject\DishClassLibrary\bin\Release\DishClassLibrary.dll
+F:\EPAM\MainProject\DishClassLibrary\bin\Release\DishClassLibrary.pdb
+F:\EPAM\MainProject\DishClassLibrary\obj\Release\DishClassLibrary.csproj.CoreCompileInputs.cache
+F:\EPAM\MainProject\DishClassLibrary\obj\Release\DishClassLibrary.dll
+F:\EPAM\MainProject\DishClassLibrary\obj\Release\DishClassLibrary.pdb

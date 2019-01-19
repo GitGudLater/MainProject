@@ -1,0 +1,6 @@
+F:\EPAM\MainProject\DependencyInjection\bin\Release\DependencyInjection.dll
+F:\EPAM\MainProject\DependencyInjection\bin\Release\DependencyInjection.pdb
+F:\EPAM\MainProject\DependencyInjection\obj\Release\DependencyInjection.csprojAssemblyReference.cache
+F:\EPAM\MainProject\DependencyInjection\obj\Release\DependencyInjection.csproj.CoreCompileInputs.cache
+F:\EPAM\MainProject\DependencyInjection\obj\Release\DependencyInjection.dll
+F:\EPAM\MainProject\DependencyInjection\obj\Release\DependencyInjection.pdb

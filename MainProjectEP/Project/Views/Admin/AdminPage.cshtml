@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Project.Models.ApplicationUser>
+
+@{
+    ViewBag.Title = "AdminPage";
+}
+
+<h2>AdminPage</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddUser", "Admin", new { }, new { @class = "btn btn - block btn - default" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Login)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Login)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "UpdateUser","Admin", new { name = item.UserName },null) |
+            @Html.ActionLink("Delete", "Delete","Admin", new { email = item.Email },null)
+        </td>
+    </tr>
+}
+
+</table>

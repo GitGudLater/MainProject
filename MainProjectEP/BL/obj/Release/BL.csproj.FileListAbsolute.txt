@@ -1,0 +1,11 @@
+F:\EPAM\MainProject\BL\obj\Release\BL.csprojAssemblyReference.cache
+F:\EPAM\MainProject\BL\obj\Release\BL.csproj.CoreCompileInputs.cache
+F:\EPAM\MainProject\BL\bin\Release\BL.dll
+F:\EPAM\MainProject\BL\bin\Release\BL.pdb
+F:\EPAM\MainProject\BL\bin\Release\DataAccessLayer.dll
+F:\EPAM\MainProject\BL\bin\Release\DishClassLibrary.dll
+F:\EPAM\MainProject\BL\bin\Release\DataAccessLayer.pdb
+F:\EPAM\MainProject\BL\bin\Release\DishClassLibrary.pdb
+F:\EPAM\MainProject\BL\obj\Release\BL.csproj.CopyComplete
+F:\EPAM\MainProject\BL\obj\Release\BL.dll
+F:\EPAM\MainProject\BL\obj\Release\BL.pdb

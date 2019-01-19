@@ -1,0 +1,25 @@
+﻿
+@{
+                /**/
+
+                ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm())
+{
+
+    <p> </p>
+    <div class="form-group">
+        <input type="text" name="value" class="form-control" placeholder="Search here" id="ls" />
+    </div>
+    <p>Search Type</p>
+    <p><input type="radio" name="name" value="DishName" checked="checked"> DishName</p>
+
+    <p><input type="radio" name="name" value="Type"> TypeName</p>
+
+    <p><input type="radio" name="name" value="Ingredient"> IngredientName</p>
+ 
+    <input type="submit" name="midname" value="Search" class="btn-default" />
+}
